@@ -32,7 +32,7 @@ void  shudu(  )                  // 函数shudu，功能：生成1~9的排列组合后按统一模
     for(i = 0; i < 9; i ++)
     {
 	  for(j = 0; j < 9; j ++)
-        printf("%d",a[i][j]);//输出数独 
+        printf("%d ",a[i][j]);//输出数独 
         printf("\n");
     }
    printf("\n"); 
